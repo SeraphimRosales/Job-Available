@@ -1,0 +1,94 @@
+.title{
+
+  font-size: 70px;
+
+}
+.description{
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.navbar-nav .active{
+    border-bottom: white solid 3px;
+    color: white;
+    }
+
+   /* Home Page */ 
+.hero-section{
+	background: url("../img/home bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+	height: 100vh;
+  
+    }
+
+.btn-gray{
+    background-color: #2e302e;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 20px;
+    }
+
+
+.home-lastpage-section h1{
+    font-size: 100px;
+}
+
+
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+
+  .hero-subtitle {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+
+  .btn-secondary {
+    background-color: gray;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-secondary:hover {
+    background-color: black;
+  }
+
+  @media screen and (max-width: 768px) {
+    .hero-title {
+      font-size: 3rem;
+    }
+    .hero-subtitle {
+      font-size: 1.5rem;
+    }
+  }
+
+
+
+
+
+
+
+  
